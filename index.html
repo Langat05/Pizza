@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <title>Pizza</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-success">
+    <a class="navbar-brand" href="#"><span>PIZZA HUT</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Our Varieties</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="toppage">
+      <div class="toptext">
+        <div class="h">
+          <h1><b><span class="hh">WELCOME TO PIZZA HUT!</span></b></h1>
+          <div class="btn">
+            <button type="button"><b>Order Now!</b></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="hed">
+      <h2>Our Varieties</h2>
+    </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="images/Margherita Pizza.jpeg" class="rounded" alt="Los Angeles" style="width:40%;height: 280px;">
+          <p>Margherita Pizza</p>
+        </div>
+
+        <div class="item">
+          <img src="images/pepperoni.jpeg" class="rounded" alt="Chicago" style="width:40%;height: 280px;">
+          <p>Pepperoni Pizza</p>
+        </div>
+
+        <div class="item">
+          <img src="images/bbq.jpeg" class="rounded" alt="New york" style="width:40%;height: 280px;">
+          <p>BBQ Pizza</p>
+        </div>
+        <div class="item">
+          <img src="images/Hawaian.jpeg" class="rounded" alt="New york" style="width:40%; height: 280px;">
+          <p>Hawaian Pizza</p>
+        </div>
+        <div class="item">
+          <img src="images/Meat-lovers.jpeg" class="rounded" alt="New york" style="width:40%;height: 280px;">
+          <p>Meat-Lover's Pizza</p>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <h1 class="text">Place Your Order Now</h1>
+    <div class="card" style="width: 50%;">
+      <form>
+        <div class="form-group text-center">
+          <label for="pizzaflavor1">Select The Size</label>
+          <select class="form-control" id="sel1">
+            <option value="400">Small</option>
+            <option value="700">Medium</option>
+            <option value="1000">Large</option>
+          </select>
+        </div>
+      </form>
+
+      <form>
+        <div class="form-group text-center">
+          <label for="pizzaflavor1">Choose Your Favorite Crust!</label>
+          <select class="form-control" id="sel2">
+            <option value="200">Crispy</option>
+            <option value="100">Stuffed</option>
+            <option value="120"> Bagels</option>
+            <option value="90"> Gluten-free</option>
+          </select>
+        </div>
+      </form>
+
+      <form>
+        <div class="form-group text-center">
+          <label for="pizzaflavor1">Choose Your Favorite Toppings!</label>
+          <select class="form-control" id="sel3">
+            <option value="60">Pepperoni</option>
+            <option value="110">Mushrooms</option>
+            <option value="70">Black olives</option>
+            <option value="120">Green peppers</option>
+          </select>
+        </div>
+        <div class="form-group text-center">
+          <label for="number">NUmber of Pizza</label>
+          <input type="number" class="form-control" id="number"placeholder="number of pizza" min="1" required>
+        </div> 
+      </form>
+      <div class="button">
+          <button type="number" onclick="calculateTotal()">Confirm</button>
+        </div>
+    </div>
+
+  </div>
+  <div class="footer" id="footer">
+    <p>&COPY;<br>Langat K Justus</p>
+  </div>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script src="./js/scripts.js"></script>
+</body>
+
+</html>
