@@ -107,8 +107,8 @@
     <div class="card" style="width: 100%;">
       <form>
         <div class="form-group text-center">
-          <label for="pizzaflavor1">Select The Size</label>
-          <select class="form-control" id="sel1">
+          <select class="form-control" id="sel1" style="font-size:2rem; color:black;">
+            <option value="" disabled selected hidden><b>Select The Size of Your Pizza</b></option>
             <option value="400">Small</option>
             <option value="700">Medium</option>
             <option value="1000">Large</option>
@@ -118,8 +118,9 @@
 
       <form>
         <div class="form-group text-center">
-          <label for="pizzaflavor1">Choose Your Favorite Crust!</label>
-          <select class="form-control" id="sel2">
+          <select class="form-control" id="sel2" style="font-size:2rem; color:black;">
+            <option value="" disabled selected hidden><b>Choose Your Favorite Crust!</b>
+            <option>
             <option value="200">Crispy</option>
             <option value="100">Stuffed</option>
             <option value="120"> Bagels</option>
@@ -128,10 +129,10 @@
         </div>
       </form>
 
-      <form>
+      <form action="/action_page.php">
         <div class="form-group text-center">
-          <label for="pizzaflavor1">Choose Your Favorite Toppings!</label>
-          <select class="form-control" id="sel3">
+          <select class="form-control" id="sel3" style="font-size:2rem; color:black;">
+            <option value="" disabled selected hidden>Choose Your Favorite Toppings!</option>
             <option value="60">Pepperoni</option>
             <option value="110">Mushrooms</option>
             <option value="70">Black olives</option>
@@ -139,11 +140,11 @@
           </select>
         </div>
         <div class="form-group text-center">
-          <label for="number">NUmber of Pizza</label>
-          <input type="number" class="form-control" id="number" placeholder="number of pizza" min="1" required>
+          <input type="number" style="font-size:2.5rem; color:black;" class="form-control" name="fname" id="number"
+            placeholder="Number of pizza" min="1" required>
         </div>
       </form>
-      <div class="button">
+      <div class="button" style="font-size:3rem; color:black;">
         <button type="number" onclick="calculateTotal()">Confirm</button>
       </div>
     </div>
