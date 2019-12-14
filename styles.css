@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: unset;
+    background-attachment: fixed;
 }
 
 .navbar-nav {
