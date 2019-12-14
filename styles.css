@@ -9,15 +9,19 @@ position: unset;
     left: 50%;
     transform: translatex(-50%);
 }
+.var{
+    font-weight: bolder; 
+    padding-left: 80px;
+}
 .bar{
     text-align: center;
     font-size: 45px;
-    margin: -28px;
-    
+    margin: -28px; 
 }
 span{
     font-size: 25px;
-
+     color: white;
+     font-weight: bolder;
 }
 .toppage{
 height: 100vh;
