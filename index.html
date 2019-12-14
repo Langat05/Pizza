@@ -26,7 +26,7 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Our Varieties</a>
+          <a class="nav-link" href="#varieties">Our Varieties</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#footer">Contact Us</a>
@@ -41,7 +41,11 @@
         <div class="h">
           <h1><b><span class="hh">WELCOME TO PIZZA HUT!</span></b></h1><br>
           <div class="btn">
-            <button type="button" style="width: 200px; height:70px; background-color:white; border-color:blue; border-radius: 50%;"; b>ORDER NOW!</b></button>
+               <form action="#order"> 
+                <button class = "button" type="submit" style="border-radius:50%; font-style: italic; width: 300px; height: 80px; background-color: yellowgreen; font-size: 30px"> 
+                    <b>ORDER NOW!</b> 
+                </button> 
+            </form> 
           </div>
         </div>
       </div>
@@ -51,7 +55,7 @@
 
   <div class="container">
     <div class="hed">
-      <h2>Our Varieties</h2>
+      <h2 id="varieties">Our Varieties</h2>
     </div>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -98,7 +102,7 @@
     </div>
   </div>
   <div class="container-fluid">
-    <h1 class="text">Place Your Order Now</h1>
+    <h1 class="text" id="order">Place Your Order Now</h1>
     <div class="card" style="width: 50%;">
       <form>
         <div class="form-group text-center">
