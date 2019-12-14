@@ -34,6 +34,7 @@ label{
 }
 .hh{
     font-size: 70px;
+    color: blue;
 }
 h2{
     text-align: center;
@@ -43,7 +44,7 @@ h2{
     font-size: 60px;
 }
 .btn{
-color: blue;
+    color: blue;
 }
 .button{
 text-align: center;
