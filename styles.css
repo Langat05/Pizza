@@ -4,12 +4,20 @@ background-repeat: no-repeat;
 background-size: cover;
 position: unset;
 }
-.navbar{
-    position: fixed;
-    width: 100%;
+.navbar-nav{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.bar{
+    text-align: center;
+    font-size: 45px;
+    margin: -28px;
+    
 }
 span{
     font-size: 25px;
+
 }
 .toppage{
 height: 100vh;
