@@ -8,3 +8,12 @@ Langat K Justus
 ## Screenshot
 <img src="images/Screenshot.png">
 
+## Setup Instructions
+- Open Terminal {Ctrl+Alt+T}
+
+- git clone https://github.com/Langat05/Pizza
+
+- cd Pizza
+
+- code . if you are using vs code and atom . if you are using windows
+
