@@ -26,3 +26,11 @@ function calculateTotal() {
     alert("Your order has been received and will be delivered in a short while. Delivery fee is kshs 50.");
 }
 
+function onclick(){
+    if (getSize == "" || getFlavour == "" || getTopping == ""){
+        alert("Please make your selction");
+    }
+    else{
+        alert("")
+    }
+}

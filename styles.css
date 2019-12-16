@@ -82,7 +82,9 @@ h2 {
     text-align: center;
     color: blue;
 }
-
+.table{
+    background: inherit;
+}
 .footer {
     left: 0;
     bottom: 0;
