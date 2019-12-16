@@ -25,5 +25,10 @@ function calculateTotal() {
     prompt("Enter your location");
     alert("Your order has been received and will be delivered in a short while. Delivery fee is kshs 150.");
 }
+function calculate() {
+    var results = (getSize() + getFlavour() + getTopping()) * getNumber();
 
+    alert("You have ordered " + getNumber("") + " Pizza " + " which amounts to Kshs. " + results + " Your order is ready for pickup at our station along the University Way. Contact us for more information. Thank you.");
+
+}
 
