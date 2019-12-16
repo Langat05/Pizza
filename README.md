@@ -17,3 +17,14 @@ Langat K Justus
 
 - code . if you are using vs code and atom . if you are using windows
 
+## Technologies used
+- HTML5
+- CSS
+- Bootstrap
+- jQuery
+## BDD
+The customer can choose the size of the pizza he or she wants. Also the customer can choose more than one pizza and can select the favourite crust and toppings of their choice. Delivery option is available and the customer can choose his or her preffered location for delivery.
+
+## Contact Information
+Any contribution to better this project can be sent to me through justuslangat78@gmail.com
+
